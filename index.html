@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+</head>
+
+<body>
+    <h1>Daily Journal</h1>
+    <form action="">
+        <fieldset class="journalDate">
+            <label for="journalDate">Date of entry</label>
+            <input type="date" name="journalDate" id="journalDate" />
+        </fieldset>
+        <fieldset class="concepts">
+            <label for="concepts">Concepts covered</label>
+            <input type="text" name="concepts" id="concepts" />
+        </fieldset>
+        <fieldset class="journalEntry">
+            <label for="journalEntry">Journal Entry</label>
+            <textarea name="journalEntry" id="journalEntry" cols="30" rows="5"></textarea>
+        </fieldset>
+        <fieldset class="mood">
+            <label for="mood">Mood for the day</label>
+            <select name="mood" id="mood">
+                <option value="happy">Happy</option>
+                <option value="Excited!">Excited!</option>
+                <option value="meh">Meh</option>
+                <option value="sad">Sad</option>
+                <option value="Angry">Angry</option>
+                <option value="RAGE">Rage!!!</option>
+
+            </select>
+        </fieldset>
+        <input type="submit" value="Record Journal Entry" />
+    </form>
+    <article class="entryLog"></article>
+    <!-- must use the 'type="module"' otherwise imports won't work-->
+    <script type="module" src="/scripts/journal.js"></script>
+</body>
+
+</html>

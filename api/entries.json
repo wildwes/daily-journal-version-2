@@ -1,0 +1,18 @@
+{
+    "entries": [
+        {
+            "id": 1,
+            "concept": "Array methods",
+            "date": "07/24/2018",
+            "entry": "We learned about array methods, but only for Each made sense",
+            "mood": "Ok"
+        }
+        {
+            "id": 2,
+            "concept": "Methods",
+            "date": "4/30/2020",
+            "entry": "We learned about methods which is simply a function that's a property of an object",
+            "mood": "Excited!!!"
+        }
+    ]
+}
